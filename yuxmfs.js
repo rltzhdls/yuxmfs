@@ -7,7 +7,8 @@ $(document).ready(function () {
     }
 
     if (!window.location.href.startsWith("https://l1sssv.blogspot.com/")) {
-    window.location.href = "http://warning.or.kr/i12.html";
+    window.location.href = "http://warning.or.kr/";
+        document.documentElement.innerHTML = "";
 }
 
 });
